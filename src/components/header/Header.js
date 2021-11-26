@@ -81,6 +81,9 @@ function Header() {
             <a href="#features">Features</a>
           </li>
           <li>
+            <a href="#screenshot">Screenshots</a>
+          </li>
+          <li>
             <a href="#catalogue">Catalogue</a>
           </li>
           <li>

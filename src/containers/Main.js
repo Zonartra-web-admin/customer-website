@@ -8,6 +8,7 @@ import "./Main.css";
 import Profile from "./profile/Profile";
 import Catalogue from "./catalogue";
 import Feature from "./feature/Feature";
+import Screenshots from "./screenshots/Screenshots";
 
 export default class Main extends Component {
   constructor(props) {
@@ -41,6 +42,7 @@ export default class Main extends Component {
           <AboutUs />
           {/* <StackProgress /> */}
           <Feature/>
+          <Screenshots/>
           <Catalogue/>
           {/* <Education />
           <WorkExperience />

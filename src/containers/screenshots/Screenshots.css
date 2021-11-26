@@ -1,0 +1,115 @@
+.screenshot{
+    background-image: url("http://react.pixelstrap.com/tovo/assets/images/screenshot-bg.png");
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    position: relative;
+    background-position: 50%;
+}
+section{
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    display: block;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 576px)
+{.col-sm-12 {
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}}  
+.screenshot-contain {
+    display: -webkit-flex;
+    display: flex;
+    height: 630px;
+}
+.screenshot-carousel {
+    width: 100%;
+}
+.slick-list, .slick-slider {
+    position: relative;
+    display: block;
+}
+
+.slick-slider {
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-margin .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list, .slick-slider {
+    position: relative;
+    display: block;
+}
+.slick-track{
+    width: 6156px;
+    opacity: 1;
+    transform: translate3d(-1140px, 0px, 0px);
+        position: relative;
+        left: 0;
+        top: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .slick-slide {
+        float: left;
+        height: 100%;
+        min-height: 1px;
+        display: none;
+        width: 228px;
+    
+    }
+.screenshot-item{
+    width: 100%;
+    display: inline-block;
+}
+.slick-slide img {
+    display: block;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
