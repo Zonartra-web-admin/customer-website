@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.logo-name {
+  color: #91e32f !important;
+}
 .App-logo {
   height: 40vmin;
 }
@@ -27,4 +29,17 @@
 .row {
   margin-right: 0 !important;
   margin-left: 0 !important;
+  /* flex-wrap: nowrap !important; */
+}
+input {
+  transform: scale(1.0) !important;
+}
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }

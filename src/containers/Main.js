@@ -5,10 +5,13 @@ import AboutUs from "./aboutUs/AboutUs";
 import Top from "./topbutton/Top";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
-import Profile from "./profile/Profile";
-import Catalogue from "./catalogue";
+// import Profile from "./profile/Profile";
+import Categories from "./categories/Categories";
 import Feature from "./feature/Feature";
 import Screenshots from "./screenshots/Screenshots";
+import Vendors from "./vendors/Vendors";
+import Contact from "./contactUs/ContactUs";
+import Footer from "../components/footer/Footer";
 
 export default class Main extends Component {
   constructor(props) {
@@ -40,21 +43,12 @@ export default class Main extends Component {
           <Header />
           <Greeting />
           <AboutUs />
-          {/* <StackProgress /> */}
           <Feature/>
           <Screenshots/>
-          <Catalogue/>
-          {/* <Education />
-          <WorkExperience />
-          <Projects />
-          <StartupProject />
-          <Achievement />
-          <Blogs />
-          <Talks />
-          <Twitter /> */}
-          {/* <Podcast />*/}
-          <Profile /> 
-          {/* <Footer /> */}
+          <Categories/>
+          <Vendors/>
+          <Contact/>
+          <Footer />
           <Top />
         </StyleProvider>
       </div>

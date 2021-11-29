@@ -17,11 +17,11 @@ export default function AboutUs() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={codingPerson} />
+              <DisplayLottie animationData={codingPerson}/>
             ) : (
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                // src={require("../../assets/images/developerActivity.svg")}
               ></img>
             )}
           </div>
@@ -31,7 +31,7 @@ export default function AboutUs() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              About <span>Us</span>
             </h1>
             <p
               className={
@@ -42,12 +42,10 @@ export default function AboutUs() {
             >
               {skillsSection.subTitle}
             </p>
-            {/* <SoftwareSkill /> */}
             <div className="row">
-              <ul className="about-style">
                 {skillsSection.skills.map((skills, i) => {
                   return (
-                    <li className="d-flex col-lg-6 p-10 abt-hover">
+                    <div className="d-flex col-lg-6 p-10 abt-hover" key={i}>
                       <div className="icon-hover">
                         <img src={skills.img} alt=""></img>
                       </div>
@@ -59,10 +57,9 @@ export default function AboutUs() {
                       >
                         {skills.text}
                       </p>
-                    </li>
+                    </div>
                   );
                 })}
-              </ul>
             </div>
           </div>
         </Fade>
