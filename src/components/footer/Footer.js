@@ -64,12 +64,13 @@ export default function Footer() {
               </div>
             </div>
             <div className="copyright-section index-footer row">
+            <div className="col-6">
+              <p>2018-19 copyright by themeforest powered by pixel strap</p>
+              </div>
               <div className="col-6 socialmedia">
               <SocialMedia />
               </div>
-              <div className="col-6">
-              <p>2018-19 copyright by themeforest powered by pixel strap</p>
-              </div>
+             
             </div>
         </div>
       </Fade>

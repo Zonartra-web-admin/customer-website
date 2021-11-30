@@ -3,7 +3,7 @@ import StyleContext from "../../contexts/StyleContext";
 import { Fade } from "react-reveal";
 import "../categories/Categories.css";
 import Carousel from 'react-grid-carousel';
-import Particle from "../../components/Particle";
+
 
 const Vendors = () => {
   const { isDark } = useContext(StyleContext);
@@ -11,7 +11,7 @@ const Vendors = () => {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="vendors">
       <Fade bottom duration={1000} distance="40px">
-        <Particle/>
+        
         <section className="screenshot padding-top-bottom">
           <h2 className="skills-heading my-2">
             Vendors

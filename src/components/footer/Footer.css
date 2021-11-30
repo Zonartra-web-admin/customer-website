@@ -119,12 +119,12 @@
 	display: block;
 }
 .copyright-section p {
-	text-align: end;
+	text-align: start;
 	width: 100%;
 	padding: 15px 0px;
 	margin-bottom: 0;
 }
 .copyright-section .socialmedia{
-    text-align: start;
+    text-align: end;
 	margin: 1px 0px;
 }

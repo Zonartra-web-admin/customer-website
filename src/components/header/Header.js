@@ -5,11 +5,16 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import { greeting } from "../../portfolio";
 
+
+  
 function Header() {
   const { isDark } = useContext(StyleContext);
+  
+  
+
   return (
     <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
+      <header className={isDark ? "dark-menu header" : "header"} id="header">
         <a href="#home" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
@@ -17,7 +22,7 @@ function Header() {
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
-          className="menu-icon"
+          className="menu-icon"  
           htmlFor="menu-btn"
           style={{ color: "white" }}
         >

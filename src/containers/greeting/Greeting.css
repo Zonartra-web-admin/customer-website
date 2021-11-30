@@ -13,6 +13,8 @@
 
 .greeting-main {
   display: flex;
+  margin-top: 6%;
+  position: relative;
 }
 
 .subTitle {
